@@ -1,0 +1,17 @@
+<div style="padding: 10px;">
+
+    <img src="../../assets/1.png" alt="">
+
+
+</div>
+<br>
+
+<div class="row">
+<div class="col-2" *ngFor="let val of arr" >
+   <a (click)="loadSearch(val.value )"> <img   src="../../assets/{{val.src}}"   > </a>
+</div>
+
+</div>
+
+
+
